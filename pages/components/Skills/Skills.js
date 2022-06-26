@@ -8,7 +8,7 @@ function Skills() {
             <div className='bg-[#1b1f24] pt-20  top-100 text-white '>
                 <div className=' flex justify-center'>
                     <div className='md:w-6/12 w-12/12'>
-                        <h1 className='md:text-4xl text-2xl font-bold text-center animate-fadeIn' >Let's talk about my coding skills, technical skills and whatever you want to hire me. Please have a look.</h1>
+                        <h1 className='md:text-4xl text-2xl font-bold text-center animate-fadeIn' >Let&apos;s talk about my coding skills, technical skills and whatever you want to hire me. Please have a look.</h1>
                     </div>
                 </div>
                 <video playsInline autoPlay muted className=" bg-[#1b1f24]  js-viewport-aware-video events-none height-auto width-auto position-absolute mx-auto bottom-0 z-n1" width="1920" height="780" poster="https://github.githubassets.com/images/modules/site/copilot/hero/bg-poster@2x.webp">

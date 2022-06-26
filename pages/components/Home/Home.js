@@ -6,7 +6,7 @@ export const Home = () => {
         <>
             <div className="bg-gradient-to-b pt-20 md:pt-40 text-white from-[#2d2546] to-[#181c22] h-auto ">
                 <div className="pb-10">
-                    <h1 className='text-center font-bold md:text-6xl text-4xl animate-fadeIn  '>Hey, It's me <span className='text-blue-500'>Ujjawal</span> Rachhoya</h1>
+                    <h1 className='text-center font-bold md:text-6xl text-4xl animate-fadeIn  '>Hey, It&apos;s me <span className='text-blue-500'>Ujjawal</span> Rachhoya</h1>
                     <div className='flex justify-center animate-fadeIn'>
                         <p className='my-5  w-12/12 text-center text-[#89939d] text-xl font-medium md:w-6/12  '>MERN stack web developer, Quick learner, Self motivated, Curious person</p>
                     </div>
