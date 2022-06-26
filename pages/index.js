@@ -8,15 +8,15 @@ import Project from './components/projects/Project'
 import Hireme from './components/hire/Hireme'
 function index() {
   return <>
-      <Head>
-        <title>Home</title>
-      </Head>
-      <Home />
-      <Skills />
-      <CodeEditor/>
-      <Project/>
-      <Hireme/>
-    </>
+    <Head>
+      <title>Home</title>
+    </Head>
+    <Home />
+    <Skills />
+    <CodeEditor />
+    <Project />
+    <Hireme />
+  </>
 }
 
 export default index
