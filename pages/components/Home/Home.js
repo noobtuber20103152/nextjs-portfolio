@@ -1,5 +1,7 @@
 import React from 'react'
 import Codeeditor from './Codeeditor'
+import {BsGithub} from "react-icons/bs"
+import {AiFillFilePdf} from "react-icons/ai"
 // import { } from "bootstrap-icons"
 export const Home = () => {
     return (
@@ -11,15 +13,15 @@ export const Home = () => {
                         <p className='my-5  w-12/12 text-center text-[#89939d] text-xl font-medium md:w-6/12  '>MERN stack web developer, Quick learner, Self motivated, Curious person</p>
                     </div>
                     <div className="flex my-5 justify-center animate-fadeIn">
-                        <div className='md:w-4/12 w-12/12 flex md:flex-row flex-col justify-center'>
-                            <button className="bg-transparent mx-2 my-2  font-bold text-lg py-3 duration-1000 hover:bg-[#2d2546] hover:text-white bg-white text-black px-4 border border-dashed rounded"> Star with blog project <i className="animate-pulse bi bi-arrow-right"></i></button>
-                            <button className="bg-transparent mx-2 my-2 text-lg font-semibold hover:bg-white hover:text-black duration-1000 py-3 px-4 border border-dashed  rounded">Explore docs</button>
+                        <div className='md:w-12/12 w-12/12 flex flex-wrap justify-center'>
+                            <a href="https://blogtuber.vercel.app/" target="_blank" rel="noreferrer" className="hover:shadow-lg hover:-translate-y-1 hover:shadow-cyan-500/50  bg-transparent mx-2 my-2  font-bold text-lg py-3 duration-500 hover:bg-[#2d2546]  bg-[#373b3f] text-white px-4 rounded">Explore <BsGithub className='inline text-2xl' /></a>
+                            <a href="https://drive.google.com/file/d/1KnLDvMX4HAgMIMuhsqqAO667EXFgvP7X/view?usp=sharing" target="_blank" rel="noreferrer" className="hover:shadow-lg hover:-translate-y-1 hover:shadow-yellow-500/50 bg-transparent mx-2 my-2 text-lg font-semibold border hover:border-gray-900 border-gray-400 duration-500 py-3 px-4   rounded">Resume <AiFillFilePdf className='inline text-2xl' /> </a>
                         </div>
                     </div>
                 </div>
-                <Codeeditor  />
+                <Codeeditor />
             </div>
-           
+
         </>
     )
 }

@@ -3,6 +3,9 @@ import { Home } from './components/Home/Home'
 import Skills from './components/Skills/Skills'
 import Head from "next/head"
 import CodeEditor from './components/editor/CodeEditor'
+import 'animate.css';
+import Project from './components/projects/Project'
+import Hireme from './components/hire/Hireme'
 function index() {
   return (
     <>
@@ -12,6 +15,8 @@ function index() {
       <Home />
       <Skills />
       <CodeEditor/>
+      <Project/>
+      <Hireme/>
     </>
   )
 }
