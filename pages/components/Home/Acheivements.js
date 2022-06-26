@@ -15,8 +15,7 @@ function Acheivements() {
         setoutput(false)
     }
     const apiData = "export defult async function getData(){\n   const data = await fetch('https://ujjawalislive/ achievement ');\n   const data = await data.json();  \n   return data;\n }"
-    return (
-        <>
+    return <>
             <div className=' bg-transparent bg-[#25282f]   duration-1000 py-5 pl-5 pr-2'>
                 <CopyBlock showLineNumbers={true}  className="animate-fadeIn" style={{ padding: "10px 5px", fontSize: "20px", Animation:"fadeIn" }}
                     text={apiData}
@@ -32,7 +31,6 @@ function Acheivements() {
                 </div>}
             </div>
         </>
-    )
 }
 
 export default Acheivements;

@@ -16,8 +16,7 @@ function Coding() {
         setoutput(false)
     }
     const apiData = "SELECT coding from DETAILS ;"
-    return (
-        <>
+    return <>
             <div className=' bg-transparent bg-[#25282f]   duration-1000 py-5 pl-5 pr-2'>
                 <CopyBlock showLineNumbers={true} className="animate-fadeIn" style={{ padding: "10px 5px", fontSize: "20px" }}
                     text={apiData}
@@ -47,7 +46,7 @@ function Coding() {
                 </div>}
             </div>
         </>
-    )
+    
 }
 
 export default Coding;

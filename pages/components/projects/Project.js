@@ -3,8 +3,7 @@ import { SiBlogger,SiMyanimelist ,SiBookstack } from "react-icons/si"
 import Otheproject from './Otheproject';
 import Projecteditor from './Projecteditor';
 function Project() {
-    return (
-        <>
+    return <>
             <div className='bg-[#1b1f24] py-10'>
                 <div className=' w-12/12 flex flex-col   justify-center items-center '>
                     <h1 className='animate__animated animate__rubberBand   animate__delay-1s  text-3xl md:w-6/12 w-11/12 md:mr-64 ml-0 text-white text-left font-extrabold pt-5' >Want to see my project?</h1>
@@ -29,9 +28,8 @@ function Project() {
                 <Projecteditor />
                 <Otheproject/>
             </div>
-            
         </>
-    )
+    
 }
 
 export default Project;

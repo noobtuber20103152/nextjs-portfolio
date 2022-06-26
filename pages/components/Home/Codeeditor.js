@@ -14,8 +14,7 @@ function Codeeditor() {
     const onclick3 = (e) => {
         setdata({ about: false, education: false, achievement: true })
     }
-    return (
-        <>
+    return <>
             <div className='mt-3 pb-20 animate-fadeIn'>
                 <div className="flex justify-center">
                     <div className="md:w-8/12 w-11/12 border border-[#696e77] rounded-lg " >
@@ -31,7 +30,7 @@ function Codeeditor() {
                 </div>
             </div>
         </>
-    )
+    
 }
 
 export default Codeeditor

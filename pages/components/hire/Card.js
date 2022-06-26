@@ -3,7 +3,7 @@ import { SiFoodpanda, SiLeetcode, SiCodechef, SiCodeforces } from "react-icons/s
 import { BsGithub } from "react-icons/bs"
 import { AiFillFilePdf } from "react-icons/ai"
 function Card() {
-    return (
+    return   <>
         <div className='flex justify-center relative -my-52 items-center  '>
             <div className='w-10/12 bg-[#fffffe] rounded-lg shadow-2xl border-gray-400 border shadow-cyan-500/10 h-auto'>
                 <h1 className='text-7xl text-center  flex justify-center items-center mt-10' >
@@ -29,7 +29,7 @@ function Card() {
                 </div>
             </div>
         </div>
-    )
+    </>
 }
 
 export default Card

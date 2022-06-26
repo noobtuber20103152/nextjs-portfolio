@@ -7,8 +7,7 @@ import 'animate.css';
 import Project from './components/projects/Project'
 import Hireme from './components/hire/Hireme'
 function index() {
-  return (
-    <>
+  return <>
       <Head>
         <title>Home</title>
       </Head>
@@ -18,7 +17,6 @@ function index() {
       <Project/>
       <Hireme/>
     </>
-  )
 }
 
 export default index

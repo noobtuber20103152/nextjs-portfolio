@@ -14,8 +14,7 @@ function Projecteditor() {
     const onclick3 = (e) => {
         setdata({ blog: false, animetes: false, ebook: true })
     }
-    return (
-        <>
+    return  <>
             <div className='mt-20 pb-20 animate-fadeIn'>
                 <div className="flex justify-center">
                     <div className="md:w-8/12 w-11/12 border border-[#696e77] rounded-lg " >
@@ -33,7 +32,6 @@ function Projecteditor() {
                 </div>
             </div>
         </>
-    )
 }
 
 export default Projecteditor;

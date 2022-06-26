@@ -2,8 +2,7 @@ import React from 'react'
 import Skillscodeeditor from './Skillscodeeditor'
 
 function Skills() {
-    return (
-        <>
+    return  <>
 
             <div className='bg-[#1b1f24] pt-20  top-100 text-white '>
                 <div className=' flex justify-center'>
@@ -30,7 +29,7 @@ function Skills() {
                 <Skillscodeeditor />
             </div>
         </>
-    )
+    
 }
 
 export default Skills

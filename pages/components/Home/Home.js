@@ -4,8 +4,7 @@ import {BsGithub} from "react-icons/bs"
 import {AiFillFilePdf} from "react-icons/ai"
 // import { } from "bootstrap-icons"
 export const Home = () => {
-    return (
-        <>
+    return <>
             <div className="bg-gradient-to-b pt-20 md:pt-40 text-white from-[#2d2546] to-[#181c22] h-auto ">
                 <div className="pb-10">
                     <h1 className='text-center font-bold md:text-6xl text-4xl animate-fadeIn  '>Hey, It&apos;s me <span className='text-blue-500'>Ujjawal</span> Rachhoya</h1>
@@ -23,5 +22,5 @@ export const Home = () => {
             </div>
 
         </>
-    )
+    
 }
