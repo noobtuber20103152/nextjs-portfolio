@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import Head from "next/head"
-import data from "./data"
 import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai"
 function QnA() {
     const [collapse, setcollapse] = useState({ card1: "hidden", card2: "hidden", card3: "hidden" });
