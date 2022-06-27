@@ -11,7 +11,7 @@ import QnA from './components/QnA/QnA'
 function index() {
   return <>
     <Head>
-      <title>Ujjawal Rachhoya</title>
+      <title>Ujjawal </title>
     </Head>
     <Home />
     <Skills />
