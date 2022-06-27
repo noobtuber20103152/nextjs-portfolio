@@ -23,7 +23,7 @@ function Skills() {
                         <h1 className='md:text-5xl text-3xl font-extrabold text-center' >Focus on solving bigger problems</h1>
                     </div>
                     <div className='md:w-6/12 w-12/12 mt-5 '>
-                        <p className='text-center text-xl text-[#88909b] font-semibold' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, pariatur harum est voluptatum reprehenderit, iusto voluptatibus qui quibusdam illum asperiores sapiente? Nam perspiciatis quibusdam eaque totam quaerat explicabo quod quisquam.</p>
+                        <p className='text-center text-xl text-[#88909b] font-semibold' >I am the kind of person who deals with problems everyday and tries to solve them until they are solved. If you have any problem regarding technology in which I have little bit knowledge I will try to solve it.</p>
                     </div>
                 </div>
                 <Skillscodeeditor />

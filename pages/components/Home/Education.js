@@ -27,7 +27,7 @@ function Education() {
                 <button onClick={clear} className="my-3 bg-transparent mx-2 py-1   duration-1000   bg-[#455a64] text-[#c9e9ee] px-2  rounded">Clear</button>
                 {loading && <AiOutlineLoading className='animate-spin text-xl' />}
                 {output && <div  >
-                    I am Ujjawal Rachhoya, 3rd year student at Dr. B R Ambedkar National Institute of technology, Jalandhar pursuing B.Tech study in computer science and engineering.
+                    Hi, I am Ujjawal Rachhoya pursuing B.Tech study at Dr. B R Ambedkar National Institute Of Technology, Jalandhar. I am a MERN stack web developer and have a strong hand in data structures and algorithms or problem solving skills and you can check out my profile on the coding platform which I mentioned above. Currently I am a 3rd year student and currently looking for an internship.
                 </div>}
             </div>
         </>

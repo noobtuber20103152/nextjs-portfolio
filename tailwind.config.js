@@ -3,6 +3,7 @@ module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
+    "./node_modules/flowbite/**/*.js"
   ],
   theme: {
     extend: {
@@ -16,9 +17,12 @@ module.exports = {
         "fadeIn": "fade 1s ease-in-out"
       },
       dropShadow: {
-        'xl' : '0px 0px 5px linear-gradient( to right, #ffffff , #fffacc)'
-      } 
+        'xl': '0px 0px 5px linear-gradient( to right, #ffffff , #fffacc)'
+      }
     },
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin')
+  ]
+
 }

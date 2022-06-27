@@ -27,7 +27,11 @@ function Acheivements() {
                 <button onClick={clear} className="my-3 bg-transparent mx-2 py-1   duration-1000   bg-[#455a64] text-[#c9e9ee] px-2  rounded">Clear</button>
                 {loading && <AiOutlineLoading className='animate-spin text-xl' />}
                 {output && <div c >
-                    There are my achievements or nothing else.
+                   <p>1. Participated in hackmol 3.0 organised by DSC NITJ and were able to secure a position at top 10 teams among 250+ teams.</p>
+                   <p>2. Selected as a frontend developer for improvement and redesign of Dr. B R Ambedkar National Institute Of Technology, Jalandhar official website.</p>
+                   <a target="_black"rel="noreferrer" className='text-blue-400' href="https://drive.google.com/file/u/1/d/1t-OajhRiVZQE-PL6hW7mGKmVyuCjE5dW/view?usp=sharing">3. Winner of best portfolio website challenge by codepromt instagram page.</a>
+                   <p>4. Global rank 112 in Exun 2021 codechef</p>
+                   <p>5. Global rank 45 in February coockoff 2022 codechef</p>
                 </div>}
             </div>
         </>

@@ -3,7 +3,7 @@ import { SiFoodpanda, SiLeetcode, SiCodechef, SiCodeforces } from "react-icons/s
 import { BsGithub } from "react-icons/bs"
 import { AiFillFilePdf } from "react-icons/ai"
 function Card() {
-    return   <>
+    return <>
         <div className='flex justify-center relative -my-52 items-center  '>
             <div className='md:w-10/12 w-11/12 bg-[#fffffe] rounded-lg shadow-2xl border-gray-400 border shadow-cyan-500/10 h-auto'>
                 <h1 className='text-7xl text-center  flex justify-center items-center mt-10' >
@@ -16,7 +16,7 @@ function Card() {
                 <div className="flex my-5 justify-center animate-fadeIn">
                     <div className='md:w-12/12 w-12/12 flex flex-wrap justify-center'>
                         <a href="https://blogtuber.vercel.app/" target="_blank" rel="noreferrer" className="hover:shadow-lg hover:-translate-y-1 hover:shadow-cyan-500/50  bg-transparent mx-2 my-2  font-bold text-lg py-3 duration-500 hover:bg-[#2d2546]  bg-[#373b3f] text-white px-4 rounded">Explore <BsGithub className='inline text-2xl' /></a>
-                        <a href="https://drive.google.com/file/d/1KnLDvMX4HAgMIMuhsqqAO667EXFgvP7X/view?usp=sharing" target="_blank" rel="noreferrer" className="hover:shadow-lg hover:-translate-y-1 hover:shadow-yellow-500/50 bg-transparent mx-2 my-2 text-lg font-semibold border hover:border-gray-900 border-gray-400 duration-500 py-3 px-4   rounded">Resume <AiFillFilePdf className='inline text-2xl' /> </a>
+                        <a href="https://drive.google.com/file/d/1hUDhp_h5K76pbh3BsMS_tiqJ1zKuS6Zq/view?usp=sharing" target="_blank" rel="noreferrer" className="hover:shadow-lg hover:-translate-y-1 hover:shadow-yellow-500/50 bg-transparent mx-2 my-2 text-lg font-semibold border hover:border-gray-900 border-gray-400 duration-500 py-3 px-4   rounded">Resume <AiFillFilePdf className='inline text-2xl' /> </a>
                     </div>
                 </div>
                 <div className="flex my-5  justify-center animate-fadeIn ">
