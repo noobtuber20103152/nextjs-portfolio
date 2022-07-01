@@ -9,7 +9,7 @@ function Contact() {
     }
     const submit = async () => {
         console.log(data);
-        let resdata = await fetch("http://localhost:3000/api/upload/uploadform", {
+        let resdata = await fetch("/api/upload/uploadform", {
             method: "POST",
             body: JSON.stringify(data),
             headers: {
