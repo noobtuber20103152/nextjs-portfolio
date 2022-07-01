@@ -22,6 +22,7 @@ function Contact() {
             toast.success("Message sent successfully", {
                 position: toast.POSITION.TOP_LEFT
             });
+            window.scrollTo({ top: 0, behavior: 'smooth' });
         }
 
         else {
@@ -52,17 +53,17 @@ function Contact() {
                 <div className="">
                     <div>
                         <span className="uppercase text-sm text-gray-600 font-bold">Full Name</span>
-                        <input onChange={onchange} name="name" className="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                        <input onChange={onchange} value={data.name} name="name" className="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
                             type="text" placeholder="" />
                     </div>
                     <div className="mt-8">
                         <span className="uppercase text-sm text-gray-600 font-bold">Email</span>
-                        <input onChange={onchange} name="email" className="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                        <input onChange={onchange} value={data.email} name="email" className="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
                             type="text" />
                     </div>
                     <div className="mt-8">
                         <span className="uppercase text-sm text-gray-600 font-bold">Message</span>
-                        <textarea onChange={onchange} name="message" className="w-full h-32 bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"></textarea>
+                        <textarea onChange={onchange} value={data.message} name="message" className="w-full h-32 bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"></textarea>
                     </div>
                     <div className="mt-8">
                         <button onClick={submit}
