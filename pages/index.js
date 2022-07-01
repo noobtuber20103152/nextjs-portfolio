@@ -7,6 +7,7 @@ import 'animate.css';
 import Project from './components/projects/Project'
 import Hireme from './components/hire/Hireme'
 import QnA from './components/QnA/QnA'
+import Contact from './components/contact/Contact'
 
 function index() {
   return <>
@@ -19,6 +20,7 @@ function index() {
     <Project />
     <Hireme />
     <QnA />
+    <Contact/>
   </>
 }
 
