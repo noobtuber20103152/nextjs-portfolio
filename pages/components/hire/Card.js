@@ -1,6 +1,6 @@
 import React from 'react'
 import { SiFoodpanda, SiLeetcode, SiCodechef, SiCodeforces } from "react-icons/si"
-import { BsGithub } from "react-icons/bs"
+import { BsGithub, BsFillFileBinaryFill } from "react-icons/bs"
 import { AiFillFilePdf } from "react-icons/ai"
 function Card() {
     return <>
@@ -25,6 +25,7 @@ function Card() {
                         <a href="https://leetcode.com/ujjawalrachhoya100/" target="_blank" rel="noreferrer" className="hover:shadow-lg hover:-translate-y-1 hover:shadow-red-500/50 bg-transparent mx-2 my-2 text-lg font-semibold  duration-500 py-3 px-4   rounded">Leetcode <SiLeetcode className='inline text-2xl' /> </a>
                         <a href="https://auth.geeksforgeeks.org/user/ujjawalrcs20" target="_blank" rel="noreferrer" className="hover:shadow-lg hover:-translate-y-1 hover:shadow-green-500/50 bg-transparent mx-2 my-2 text-lg font-semibold  duration-500 py-3 px-4   rounded">Geeksforgeek <SiLeetcode className='inline text-2xl' /> </a>
                         <a href="https://codeforces.com/profile/Noob_tuber" target="_blank" rel="noreferrer" className="hover:shadow-lg hover:-translate-y-1 hover:shadow-blue-500/50 bg-transparent mx-2 my-2 text-lg font-semibold  duration-500 py-3 px-4   rounded">Codeforces <SiCodeforces className='inline text-2xl' /> </a>
+                        <a href="https://binarysearch.com/@/ujjawalrachhoya" target="_blank" rel="noreferrer" className="hover:shadow-lg hover:-translate-y-1 hover:shadow-cyan-500/50 bg-transparent mx-2 my-2 text-lg font-semibold  duration-500 py-3 px-4   rounded">Binary Search <BsFillFileBinaryFill className='inline text-2xl' /> </a>
                     </div>
                 </div>
             </div>
