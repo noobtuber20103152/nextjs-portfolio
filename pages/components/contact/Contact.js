@@ -19,10 +19,19 @@ function Contact() {
         resdata = await resdata.json();
         if (resdata.success === "success") {
             setdata({ name: "", email: "", message: "" })
-            toast.success("Message sent successfully", {
-                position: toast.POSITION.TOP_LEFT
-            });
-            window.scrollTo({ top: 0, behavior: 'smooth' });
+            const resolveAfter2Sec = new Promise(resolve => setTimeout(resolve, 2000));
+            toast.promise(
+                resolveAfter2Sec,
+                {
+                    pending: 'Message sending...',
+                    success: 'Message send successfully',
+                    error: 'Promise rejected 🤯',
+                    position: "top-left"
+                }
+            )
+            setTimeout(() => {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            }, 2000)
         }
 
         else {
