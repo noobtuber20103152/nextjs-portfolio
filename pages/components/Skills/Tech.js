@@ -21,7 +21,7 @@ function Tech() {
     const apiData = "import { Skills } from ' ./models '\n async function getSkills () {\n   let data = await Skills.find( { type: 'technical' } ) ;\n   return data ;\n  }\n  console.log( getSkills( ) );\n "
     return <>
             <div className=' bg-transparent bg-[#25282f]   duration-1000 py-5 pl-5 pr-2'>
-                <CopyBlock showLineNumbers={true} className="animate-fadeIn" style={{ padding: "10px 5px", fontSize: "20px" }}
+                <CopyBlock showLineNumbers={false} className="animate-fadeIn" style={{ padding: "10px 5px", fontSize: "20px" }}
                     text={apiData}
                     theme={dracula}
                     wrapLines={true}
