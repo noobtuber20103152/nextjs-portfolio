@@ -3,7 +3,6 @@ import Codeeditor from './Codeeditor'
 import { BsGithub } from "react-icons/bs"
 import { AiFillFilePdf } from "react-icons/ai"
 import { SiBlogger } from "react-icons/si"
-// import { } from "bootstrap-icons"
 function Home() {
     return <>
         <div className="bg-gradient-to-b pt-20 md:pt-40 text-white from-[#2d2546] to-[#181c22] h-auto ">
