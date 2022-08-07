@@ -18,7 +18,7 @@ function About() {
     const apiData = "response = request('https://ujjawalislive/ about')\n data =  response.json()\n print(data)"
     return <>
             <div className=' bg-transparent bg-[#25282f]   duration-1000 py-5 pl-5 pr-2'>
-                <CopyBlock showLineNumbers={false} className="animate-fadeIn" style={{ padding: "10px 5px", fontSize: "20px" }}
+                <CopyBlock showLineNumbers={false} className="animate-fadeIn font-normal" style={{ padding: "10px 5px",  fontSize: "20px" }}
                     text={apiData}
                     theme={dracula}
                     wrapLines={true}

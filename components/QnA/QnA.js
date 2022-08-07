@@ -23,7 +23,7 @@ function QnA() {
                 <div className="flex justify-center mb-3">
                     <img width={80} src="https://c.tenor.com/F1ynPfLGvFcAAAAi/tkthao219-bubududu.gif" alt="" />
                 </div>
-                <h1 className='text-xl text-center uppercase font-extrabold' >Something about me</h1>
+                <h1 className='text-xl text-center uppercase font-normal ' >Something about me</h1>
             </div>
         </div>
         <div className='flex justify-center items-center my-10'>
@@ -32,7 +32,7 @@ function QnA() {
                     <h2 id="accordion-collapse-heading-1">
                         <button onClick={() => onclick(1)} type="button" className="flex justify-start items-center p-5 w-full font-medium text-left rounded-t-xl border  border-gray-400 border-t-0 border-r-0 border-l-0 border-b-1 " data-accordion-target="#accordion-collapse-body-1" aria-expanded="true" aria-controls="accordion-collapse-body-1">
                             {collapse.card1 == "hidden" ? <AiOutlinePlus className='inline mr-2' /> : <AiOutlineMinus className='inline mr-2' />}
-                            <span className='text-2xl' >who I am?</span>
+                            <span className='text-2xl font-normal' >who I am?</span>
                         </button>
                     </h2>
                     <div id="accordion-collapse-body-1" className={collapse.card1} aria-labelledby="accordion-collapse-heading-1">
@@ -43,7 +43,7 @@ function QnA() {
                     <h2 id="accordion-collapse-heading-1">
                         <button onClick={() => onclick(2)} type="button" className="flex justify-start items-center p-5 w-full font-medium text-left rounded-t-xl border  border-gray-400 border-t-0 border-r-0 border-l-0 border-b-1 " data-accordion-target="#accordion-collapse-body-1" aria-expanded="true" aria-controls="accordion-collapse-body-1">
                             {collapse.card2 == "hidden" ? <AiOutlinePlus className='inline mr-2' /> : <AiOutlineMinus className='inline mr-2' />}
-                            <span className='text-2xl' >Which technologies I use to build web application?</span>
+                            <span className='text-2xl font-normal' >Which technologies I use to build web application?</span>
                         </button>
                     </h2>
                     <div id="accordion-collapse-body-1" className={collapse.card2} aria-labelledby="accordion-collapse-heading-1">
@@ -54,7 +54,7 @@ function QnA() {
                     <h2 id="accordion-collapse-heading-1">
                         <button onClick={() => onclick(3)} type="button" className="flex justify-start items-center p-5 w-full font-medium text-left rounded-t-xl border  border-gray-400 border-t-0 border-r-0 border-l-0 border-b-1 " data-accordion-target="#accordion-collapse-body-1" aria-expanded="true" aria-controls="accordion-collapse-body-1">
                             {collapse.card3 == "hidden" ? <AiOutlinePlus className='inline mr-2' /> : <AiOutlineMinus className='inline mr-2' />}
-                            <span className='text-2xl' >What about my interests?</span>
+                            <span className='text-2xl font-normal' >What about my interests?</span>
                         </button>
                     </h2>
                     <div id="accordion-collapse-body-1" className={collapse.card3} aria-labelledby="accordion-collapse-heading-1">

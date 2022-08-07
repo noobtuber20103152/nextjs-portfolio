@@ -5,7 +5,7 @@ function Otheproject() {
     return  <>
             <div className='flex justify-center items-center pb-72 flex-col'>
                 <div className='md:w-6/12 w-11/12 '>
-                    <h1 className='text-center md:text-3xl  text-xl md:font-extrabold font-semibold text-white' >There are many intersting project on my GitHub profile. Please have a look and follow below steps for each repo and enjoy.</h1>
+                    <h1 className='text-center md:text-3xl  text-sm md:font-extrabold font-semibold text-white' >There are many intersting project on my GitHub profile. Please have a look and follow below steps for each repo and enjoy.</h1>
                 </div>
 
                 <div className='md:w-6/12 w-11/12 my-10'>

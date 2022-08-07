@@ -9,7 +9,7 @@ function Home() {
             <div className="pb-10">
                 <h1 className='text-center font-bold md:text-6xl text-4xl animate-fadeIn  '>Hey, It&apos;s me <span className='text-blue-500'>Ujjawal</span> Rachhoya</h1>
                 <div className='flex justify-center animate-fadeIn'>
-                    <p className='my-5  w-12/12 text-center text-[#89939d] text-xl font-medium md:w-6/12  '>MERN stack web developer, Quick learner, Self motivated, Curious person</p>
+                    <p className='my-5  w-12/12 text-center text-[#89939d] text-xl font-normal md:w-6/12  '>MERN stack web developer, Quick learner, Self motivated, Curious person</p>
                 </div>
                 <div className="flex my-5 justify-center animate-fadeIn">
                     <div className='md:w-12/12 w-12/12 flex flex-wrap justify-center'>
