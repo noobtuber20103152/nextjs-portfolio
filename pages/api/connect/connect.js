@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const connection = {};
-const uri = "mongodb+srv://noobtuber:noobtuber@cluster0.3dnvq2i.mongodb.net/?retryWrites=true&w=majority"
+const uri = `${process.env.uri}`
 async function connect() {
     if (connection.isConnected) {
         return;
