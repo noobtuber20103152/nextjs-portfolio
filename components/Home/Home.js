@@ -17,6 +17,9 @@ function Home() {
                         <a href="https://drive.google.com/file/d/18aEKQLE2HWyVdcUVEQV7pMltypzhbII7/view?usp=sharing" target="_blank" rel="noreferrer" className="hover:shadow-lg hover:-translate-y-1 hover:shadow-yellow-500/50 bg-transparent mx-2 my-2 text-lg font-semibold border hover:border-gray-900 border-gray-400 duration-500 py-3 px-4   rounded">Resume <AiFillFilePdf className='inline text-2xl' /> </a>
                     </div>
                 </div>
+                <div className='flex justify-center h-auto'>
+                    <iframe className='w-full md:w-6/12 md:h-auto h-[30vh] md:mx-0 mx-2' src="https://github.com/sponsors/noobtuber20103152/card" title="Sponsor noobtuber20103152" ></iframe>
+                </div>
             </div>
             <Codeeditor />
         </div>
