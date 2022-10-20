@@ -1,6 +1,5 @@
 import React from 'react'
 import Codeeditor from './Codeeditor'
-import { BsGithub } from "react-icons/bs"
 import { AiFillFilePdf } from "react-icons/ai"
 import { SiBlogger } from "react-icons/si"
 function Home() {
