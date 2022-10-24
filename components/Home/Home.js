@@ -13,7 +13,7 @@ function Home() {
                 <div className="flex my-5 justify-center animate-fadeIn">
                     <div className='md:w-12/12 w-12/12 flex flex-wrap justify-center'>
                         <a href="https://blogtuber.vercel.app/" target="_blank" rel="noreferrer" className="hover:shadow-lg hover:-translate-y-1 hover:shadow-cyan-500/50  bg-transparent mx-2 my-2  font-bold text-lg py-3 duration-500 hover:bg-[#2d2546]  bg-[#373b3f] text-white px-4 rounded">Explore <SiBlogger className='inline text-2xl' /></a>
-                        <a href="https://drive.google.com/file/d/18aEKQLE2HWyVdcUVEQV7pMltypzhbII7/view?usp=sharing" target="_blank" rel="noreferrer" className="hover:shadow-lg hover:-translate-y-1 hover:shadow-yellow-500/50 bg-transparent mx-2 my-2 text-lg font-semibold border hover:border-gray-900 border-gray-400 duration-500 py-3 px-4   rounded">Resume <AiFillFilePdf className='inline text-2xl' /> </a>
+                        <a href="/Ujjawal_Rachhoya_resume.pdf" target="_blank" rel="noreferrer" className="hover:shadow-lg hover:-translate-y-1 hover:shadow-yellow-500/50 bg-transparent mx-2 my-2 text-lg font-semibold border hover:border-gray-900 border-gray-400 duration-500 py-3 px-4   rounded">Resume <AiFillFilePdf className='inline text-2xl' /> </a>
                     </div>
                 </div>
                 <div className='flex justify-center h-auto'>
