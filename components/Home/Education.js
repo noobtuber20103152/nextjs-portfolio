@@ -35,7 +35,7 @@ function Education() {
                         </span>
                         <div class="justify-between items-center p-4 bg-white rounded-lg border border-gray-200 shadow-sm sm:flex dark:bg-gray-700 dark:border-gray-600">
                             <time class="mb-1 text-xs font-normal text-gray-400 sm:order-last sm:mb-0">Dec 2020 - present</time>
-                            <div class="text-sm font-normal text-gray-500 dark:text-gray-300">Currentyle pursuing B.Tech in computer science and engineering at <a  target="_blank" href="https://www.nitj.ac.in/" class="font-semibold text-blue-600 dark:text-blue-500 hover:underline">Dr. B R Ambedkar National Institute Of Technology, Jalandhar</a> </div>
+                            <div class="text-sm font-normal text-gray-500 dark:text-gray-300">Currently pursuing B.Tech in computer science and engineering at <a  target="_blank" href="https://www.nitj.ac.in/" class="font-semibold text-blue-600 dark:text-blue-500 hover:underline">Dr. B R Ambedkar National Institute Of Technology, Jalandhar</a> </div>
                         </div>
                     </li>
                 </ol>
