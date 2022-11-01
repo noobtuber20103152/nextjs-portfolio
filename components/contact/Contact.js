@@ -41,7 +41,7 @@ function Contact() {
                         <div class="w-full px-4 lg:w-1/2 xl:w-6/12">
                             <div class="mb-12 max-w-[570px] lg:mb-0">
                                 <h2 class="text-dark mb-6 text-[32px] font-bold uppercase sm:text-[40px] lg:text-[36px] xl:text-[40px]" >
-                                    GET IN TOUCH WITH ME s
+                                    GET IN TOUCH WITH ME 
                                 </h2>
                                 <div class="mb-8 flex w-full max-w-[370px]">
                                     <div class="bg-primary text-primary mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-opacity-5 sm:h-[70px] sm:max-w-[70px]"  >
