@@ -11,7 +11,7 @@ import { AiFillFilePdf } from "react-icons/ai";
 function Card() {
   return (
     <>
-      <div className="flex justify-center relative -my-52 items-center  ">
+      <div className="flex justify-center relative items-center  ">
         <div className="md:w-10/12 w-11/12 bg-[#fffffe] rounded-lg shadow-2xl border-gray-400 border shadow-cyan-500/10 h-auto">
           <h1 className="text-7xl text-center  flex justify-center items-center mt-10">
             <img

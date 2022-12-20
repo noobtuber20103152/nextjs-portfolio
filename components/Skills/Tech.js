@@ -5,6 +5,7 @@ import { DiCss3, DiJavascript1, DiReact, DiPython } from 'react-icons/di';
 import { SiNodedotjs, SiMongodb, SiExpress, SiC, SiCplusplus, SiMysql } from "react-icons/si"
 import { TbBrandNextjs } from "react-icons/tb"
 import { FaGit } from "react-icons/fa"
+import {SiStrapi} from "react-icons/si"
 function Tech() {
     const [output, setoutput] = useState(false);
     const [loading, setloading] = useState(false);
@@ -57,6 +58,7 @@ function Tech() {
                                 <DiPython className='inline-block mx-1 text-3xl text-yellow-600' />
                                 <FaGit className='inline-block mr-1 text-2xl text-orange-300' />
                                 <AiFillGithub className='inline-block mr-1 text-2xl text-blue-500' />
+                                <SiStrapi className='inline-block mr-1 text-2xl text-blue-500' />
                             </div>
                         </div>
                     </li>
