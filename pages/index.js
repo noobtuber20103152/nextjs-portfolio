@@ -10,6 +10,7 @@ import QnA from ".././components/QnA/QnA";
 import Contact from ".././components/contact/Contact";
 import Timeline from "../components/post-timeline/timeline";
 import ProjectFeatures from "../components/projects/projectFeatures";
+import Script from "next/script";
 
 function index() {
   const project = [
@@ -29,6 +30,9 @@ function index() {
     <>
       <Head>
         <title>Ujjawal Rachhoya</title>
+        {/* <script ></script> */}
+     <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5247079458292432"
+     crossorigin="anonymous"/>
       </Head>
       <Home />
       <Skills />
