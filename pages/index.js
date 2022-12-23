@@ -31,8 +31,10 @@ function index() {
       <Head>
         <title>Ujjawal Rachhoya</title>
         {/* <script ></script> */}
-     <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5247079458292432"
-     crossorigin="anonymous"/>
+        <Script
+         async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5247079458292432"
+         crossorigin="anonymous"
+        />
       </Head>
       <Home />
       <Skills />
