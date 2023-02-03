@@ -38,7 +38,7 @@ function Card() {
                 Explore <BsGithub className="inline text-2xl" />
               </a>
               <a
-                href="/Ujjawal_Rachhoya_resume.pdf"
+                href="/Ujjawal_Rachhoya_SDE.pdf"
                 target="_blank"
                 rel="noreferrer"
                 className="hover:shadow-lg hover:-translate-y-1 hover:shadow-yellow-500/50 bg-transparent mx-2 my-2 text-lg font-normal border hover:border-gray-900 border-gray-400 duration-500 py-3 px-4   rounded"
