@@ -32,8 +32,8 @@ function index() {
         <title>Ujjawal Rachhoya</title>
         {/* <script ></script> */}
         <Script
-         async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5247079458292432"
-         crossorigin="anonymous"
+          async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5247079458292432"
+          crossorigin="anonymous"
         />
       </Head>
       <Home />
@@ -41,7 +41,7 @@ function index() {
       <CodeEditor />
 
       <Hireme />
-      {project.map((e, index) => {
+      {/* {project.map((e, index) => {
         return (
           <>
             <ProjectFeatures
@@ -52,9 +52,9 @@ function index() {
             />
           </>
         );
-      })}
+      })} */}
       {/* <Timeline/> */}
-      <QnA />
+      {/* <QnA /> */}
       <Contact />
     </>
   );

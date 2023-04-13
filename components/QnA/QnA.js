@@ -18,7 +18,7 @@ function QnA() {
         <Head>
 
         </Head>
-        <div className='flex justify-center items-center '>
+        <div className='flex justify-center items-center mt-10'>
             <div className='md:w-10/12 w-11/12 border py-5 bg-gradient-to-b from-[#d9dbe8] to-white rounded-lg'>
                 <div className="flex justify-center mb-3">
                     <img width={80} src="https://c.tenor.com/F1ynPfLGvFcAAAAi/tkthao219-bubududu.gif" alt="" />
