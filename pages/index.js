@@ -7,6 +7,7 @@ import "animate.css";
 import Hireme from ".././components/hire/Hireme";
 import Contact from ".././components/contact/Contact";
 import Script from "next/script";
+import Projects from "../components/projects/project";
 
 function index() {
   const project = [
@@ -35,6 +36,7 @@ function index() {
       <Home />
       <Skills />
       <CodeEditor />
+      <Projects/>
       <Hireme />
       <Contact />
     </>
