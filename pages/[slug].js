@@ -19,11 +19,7 @@ function Slug() {
       <Head>
         <title>{slug?.split("-")?.join(" ")}</title>
       </Head>
-      {filterData ? (
-        <SingleProject data={filterData} />
-      ) : (
-        <PageNotFound />
-      )}
+      {filterData ? <SingleProject data={filterData} /> : <PageNotFound />}
     </>
   );
 }

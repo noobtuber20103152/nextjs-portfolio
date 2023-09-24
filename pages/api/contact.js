@@ -1,4 +1,7 @@
 import nodemailer from "nodemailer";
+// password="businessujjawal100"
+// SMTP_PASSWORD = "yknhemcsgutjdlka"
+// SMTP_USER="jobsujjawal100@gmail.com"
 export default async (req, res) => {
     // console.log(req.body)
     const { name, email, message } = req.body;
@@ -9,8 +12,8 @@ export default async (req, res) => {
         secure: true,
         service: 'gmail',
         auth: {
-            user: process.env.SMTP_USER,
-            pass: process.env.SMTP_PASSWORD
+            user: "jobsujjawal100@gmail.com",
+            pass: "yknhemcsgutjdlka"
         }
     });
 

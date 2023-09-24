@@ -3,6 +3,7 @@ import Codeeditor from "./Codeeditor";
 import { AiFillFilePdf } from "react-icons/ai";
 import { SiBlogger } from "react-icons/si";
 import { BsYoutube } from "react-icons/bs";
+import GithubMap from "./githubmap";
 function Home() {
   return (
     <>
@@ -52,6 +53,9 @@ function Home() {
               src="https://github.com/sponsors/noobtuber20103152/card"
               title="Sponsor noobtuber20103152"
             ></iframe>
+          </div>
+          <div>
+            <GithubMap/>
           </div>
         </div>
         <Codeeditor />
