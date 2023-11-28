@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React, { useState } from 'react'
 import Head from "next/head"
 import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai"

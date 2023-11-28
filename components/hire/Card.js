@@ -33,7 +33,7 @@ function Card() {
                 href="https://github.com/noobtuber20103152"
                 target="_blank"
                 rel="noreferrer"
-                className="hover:shadow-lg hover:-translate-y-1 hover:shadow-cyan-500/50  bg-transparent mx-2 my-2  font-normal text-lg py-3 duration-500 hover:bg-[#2d2546]  bg-[#373b3f] text-white px-4 rounded"
+                className="hover:shadow-lg hover:-translate-y-1 hover:shadow-cyan-500/50  bg-transparent mx-2 my-2  font-normal text-lg py-3 duration-500 hover:bg-[#2d2546]  bg-green-500 text-white px-4 rounded"
               >
                 Explore <BsGithub className="inline text-2xl" />
               </a>
