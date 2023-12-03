@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React, { useState } from "react";
 import { CopyBlock, dracula } from "react-code-blocks";
 import { AiOutlineLoading, AiOutlineHtml5, AiFillGithub } from "react-icons/ai";
@@ -57,28 +58,28 @@ function Tech() {
         {loading && <AiOutlineLoading className="animate-spin text-xl" />}
         {output && (
           <div>
-            <ol class="relative border-l w-full my-8 border-gray-200 dark:border-gray-700">
-              <li class="mb-10 ml-6">
-                <span class="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+            <ol className="relative border-l w-full my-8 border-gray-200 dark:border-gray-700">
+              <li className="mb-10 ml-6">
+                <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
                   <img
-                    class="rounded-full shadow-lg"
+                    className="rounded-full shadow-lg"
                     src="https://upload.wikimedia.org/wikipedia/en/9/96/Logo_of_NIT_Jalandhar.png"
                     alt="Thomas Lean image"
                   />
                 </span>
-                <div class="p-4 bg-white rounded-lg border border-gray-200 shadow-sm dark:bg-gray-700 dark:border-gray-600">
-                  <div class="justify-between items-center mb-3 sm:flex">
-                    <time class="mb-1 text-xs font-normal text-gray-400 sm:order-last sm:mb-0"></time>
-                    <div class="text-sm font-normal text-gray-500 lex dark:text-gray-300">
+                <div className="p-4 bg-white rounded-lg border border-gray-200 shadow-sm dark:bg-gray-700 dark:border-gray-600">
+                  <div className="justify-between items-center mb-3 sm:flex">
+                    <time className="mb-1 text-xs font-normal text-gray-400 sm:order-last sm:mb-0"></time>
+                    <div className="text-sm font-normal text-gray-500 lex dark:text-gray-300">
                       Tech stack and programming languages which I use to make
                       web application.
                       <a
                         href="#"
-                        class="font-semibold text-gray-900 dark:text-white hover:underline"
+                        className="font-semibold text-gray-900 dark:text-white hover:underline"
                       ></a>
                     </div>
                   </div>
-                  <div class="p-3 text-xs italic font-normal text-gray-500 bg-gray-50 rounded-lg border border-gray-200 dark:bg-gray-600 dark:border-gray-500 dark:text-gray-300">
+                  <div className="p-3 text-xs italic font-normal text-gray-500 bg-gray-50 rounded-lg border border-gray-200 dark:bg-gray-600 dark:border-gray-500 dark:text-gray-300">
                     <AiOutlineHtml5 className="inline-block mx-1 text-2xl text-red-500" />
                     <DiCss3 className="inline-block mx-1 text-2xl text-blue-600" />
                     <DiJavascript1 className="inline-block mx-1 text-2xl text-yellow-300" />
