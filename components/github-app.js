@@ -1,75 +1,64 @@
-import React from "react";
-import Skillscodeeditor from "./Skillscodeeditor";
-
-function GithubApp() {
+import React, { useState } from "react";
+import { DiJavascript1, DiReact, DiMysql, DiPython } from "react-icons/di";
+import Coding from "./Coding";
+import Tech from "./Tech";
+function Skillscodeeditor() {
+  const [data, setdata] = useState({ coding: true, skills: false });
+  const onclick1 = (e) => {
+    setdata({ coding: true, skills: false });
+  };
+  const onclick2 = (e) => {
+    setdata({ coding: false, skills: true });
+  };
+  const onclick3 = (e) => {
+    setdata({ coding: false, skills: false });
+  };
   return (
     <>
-      <div className="bg-[#1b1f24] pt-20  top-100 text-white ">
-        <div className=" flex justify-center">
-          <div className="md:w-6/12 w-12/12">
-            <h1 className="md:text-4xl text-2xl font-bold text-center animate-fadeIn">
-              Let&apos;s talk about my coding skills, technical skills and
-              whatever you want to hire me. Please have a look.
-            </h1>
+      <div className="mt-3 pb-20 animate-fadeIn">
+        <div className="flex justify-center">
+          <div className="md:w-8/12 w-11/12 border border-[#696e77] rounded-lg ">
+            <div className="bg-[#161a20] pt-2 px-2">
+              <button
+                onClick={onclick1}
+                name="coding"
+                className={` hover:text-white items-center bg-transparent font-normal ${
+                  data.coding ? "text-white" : "text-[#696e77]"
+                }  ${
+                  data.coding ? "bg-[#25282f]" : "bg-[#161a20]"
+                }  duration-200 py-3 px-4  rounded-t-lg`}
+              >
+                <DiMysql
+                  className={`${
+                    data.coding ? "animate-spin" : "animate-none"
+                  } inline-block mr-2`}
+                />
+                coding.sql
+              </button>
+              <button
+                onClick={onclick2}
+                name="skills"
+                className={`hover:text-white bg-transparent font-normal   duration-200 py-3 px-4 ${
+                  data.skills ? "text-white" : "text-[#696e77]"
+                }  ${data.skills ? "bg-[#25282f]" : "bg-[#161a20]"} ${
+                  data.skills ? "bg-[#25282f]" : "bg-[#161a20]"
+                }  rounded-t-lg`}
+              >
+                <DiJavascript1
+                  className={`${
+                    data.skills ? "animate-spin" : "animate-none"
+                  } inline-block mr-1`}
+                />
+                skills.js
+              </button>
+            </div>
+            {data.coding && <Coding />}
+            {data.skills && <Tech />}
           </div>
         </div>
-        <video
-          playsInline
-          autoPlay
-          muted
-          className=" bg-[#1b1f24]  js-viewport-aware-video events-none height-auto width-auto position-absolute mx-auto bottom-0 z-n1"
-          width="1920"
-          height="780"
-          poster="https://github.githubassets.com/images/modules/site/copilot/hero/bg-poster@2x.webp"
-        >
-          <source
-            type="video/mp4; codecs=hvc1"
-            src="https://github.githubassets.com/images/modules/site/copilot/hero/bg@2x.hevc.mov"
-            media="(min-device-pixel-ratio: 1.75), (-webkit-min-device-pixel-ratio: 1.75)"
-          />
-          <source
-            type="video/mp4; codecs=hvc1"
-            src="https://github.githubassets.com/images/modules/site/copilot/hero/bg@1.5x.hevc.mov"
-            media="(min-device-pixel-ratio: 1.3), (-webkit-min-device-pixel-ratio: 1.3)"
-          />
-          <source
-            type="video/mp4; codecs=hvc1"
-            src="https://github.githubassets.com/images/modules/site/copilot/hero/bg@1x.hevc.mov"
-          />
-          <source
-            type="video/webm"
-            src="https://github.githubassets.com/images/modules/site/copilot/hero/bg@2x.webm"
-            media="(min-device-pixel-ratio: 1.75), (-webkit-min-device-pixel-ratio: 1.75)"
-          />
-          <source
-            type="video/webm"
-            src="https://github.githubassets.com/images/modules/site/copilot/hero/bg@1.5x.webm"
-            media="(min-device-pixel-ratio: 1.3), (-webkit-min-device-pixel-ratio: 1.3)"
-          />
-          <source
-            type="video/webm"
-            src="https://github.githubassets.com/images/modules/site/copilot/hero/bg@1x.webm"
-          />
-        </video>
-        <div className=" flex flex-col justify-center items-center py-5">
-          <div className="md:w-7/12 w-12/12">
-            <h1 className="md:text-5xl text-3xl font-extrabold text-center">
-              Focus on solving bigger problems
-            </h1>
-          </div>
-          <div className="md:w-6/12 w-12/12 mt-5 ">
-            <p className="text-center text-xl text-[#88909b] font-normal">
-              I am the kind of person who deals with problems everyday and tries
-              to solve them until they are solved. If you have any problem
-              regarding technology in which I have little bit knowledge I will
-              try to solve it.
-            </p>
-          </div>
-        </div>
-        <Skillscodeeditor />
       </div>
     </>
   );
 }
 
-export default GithubApp;
+export default Skillscodeeditor;
