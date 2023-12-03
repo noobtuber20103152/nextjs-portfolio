@@ -60,7 +60,7 @@ function QnA() {
                     </h2>
                     <div id="accordion-collapse-body-1" className={collapse.card3} aria-labelledby="accordion-collapse-heading-1">
                         <div className="px-2 ">
-                            <p className="my-2 md:ml-8 text-xl text-gray-500 dark:text-gray-400">I am passionate about gaming, cricket and kabaddi. In my free time I like to play PUBG lite. If you want to play with me I give below and send me friend requests and let's have fun in  the game. I am also a district level kabaddi player and our team was able to secure 2nd position in the tournament and also winning many small village kabbadi tournaments. I also have level 10 town hall max clash of clans id.</p>
+                            <p className="my-2 md:ml-8 text-xl text-gray-500 dark:text-gray-400">I am passionate about gaming, cricket and kabaddi. In my free time I like to play PUBG lite. If you want to play with me I give below and send me friend requests and let&lsquo;s have fun in  the game. I am also a district level kabaddi player and our team was able to secure 2nd position in the tournament and also winning many small village kabbadi tournaments. I also have level 10 town hall max clash of clans id.</p>
                             <p className="my-2 md:ml-8 text-xl text-gray-500 dark:text-gray-400">PUBG lite  - 7282035541  </p>
                             <p className="my-2 md:ml-8 text-xl text-gray-500 dark:text-gray-400">Clash Of Clans  - #YJ098RY20  </p>
                         </div>
