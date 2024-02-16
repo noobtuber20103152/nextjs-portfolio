@@ -1,6 +1,6 @@
 FROM node:latest
 
-WORKDIR /frotnend
+WORKDIR /frontend
 
 COPY package.json ./
 

@@ -30,7 +30,7 @@ function Home() {
                 Explore <SiBlogger className="inline text-2xl" />
               </a>
               <a
-                href="https://peach-dru-96.tiiny.site/"
+                href="https://resume-noobtuber.tiiny.site/"
                 target="_blank"
                 rel="noreferrer"
                 className="hover:shadow-lg hover:-translate-y-1 hover:shadow-yellow-500/50 bg-transparent mx-2 my-2 text-lg font-semibold border hover:border-gray-900 border-gray-400 duration-500 py-3 px-4   rounded"
@@ -38,7 +38,7 @@ function Home() {
                 Resume <AiFillFilePdf className="inline text-2xl" />{" "}
               </a>
               <a
-                href="https://youtube.com/@explorewithme100"
+                href="https://youtube.com/@ujjawal_rachhhoya"
                 target="_blank"
                 rel="noreferrer"
                 className="hover:shadow-lg hover:-translate-y-1 hover:shadow-red-500/50 bg-transparent mx-2 my-2 text-lg font-semibold border hover:border-gray-900 border-gray-400 duration-500 py-3 px-4   rounded"
