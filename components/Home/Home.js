@@ -55,7 +55,7 @@ function Home() {
             ></iframe>
           </div> */}
           <div>
-            <GithubMap/>
+            <GithubMap />
           </div>
         </div>
         <Codeeditor />
